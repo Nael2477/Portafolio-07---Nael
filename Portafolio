@@ -1,0 +1,137 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+  
+  </head>
+  <body class="body">
+    <div class="wrapper">
+
+
+      <header>
+        <nav class="navbar">
+          <ul class="menu">
+            <li><a href="#"  class="active">Home</a></li>
+            <li><a href="#sobre_mi">Acerca de mi</a></li>
+            <li><a href="#habilidades">Mis habilidades</a></li>
+            <li><a href="#experiencias">Experiencia</a></li>
+            <li><a href="#portafolio">Portafolio</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+
+
+      <main class="main">
+        <div class="img_nael">
+            <img class="profile" src="img/nael.jpg">    
+        </div>
+        <div class="h1_main">
+            <h1>Hola, Soy Nael</h1>
+        </div>
+        <div class="h1_main2">
+            <p>Dise&#241;ador y Desarrollador Web</p>
+        </div>
+        <div class="icons">
+            <img class="icons1" src = "icon/linkedin.svg"/>
+            <img class="icons1" src = "icon/instagram.svg"/>
+            <img class="icons1" src = "icon/twitter.svg"/>
+        </div>
+        <a name="sobre_mi"></a>
+        <div class="info">
+            <div>
+            <h1 class="info1">Acerca de mi</h1>
+            </div>
+            <div>
+            <p class="info2">Creo fielmente en que tú y yo, somos una esperanza para la humanidad. Encender para siempre esa luz de esperanza en mi y en las personas, es mi diario vivir. Lo hago trabajando en las 3 variables de la vida (la energía vital, los miedos y la inteligencia). Sencillamente entrego el corazón en todos mis emprendimientos.</p>
+            </div>
+        </div>
+        <a name="habilidades"></a>
+        <div class="habilidades">
+            <div>
+            <h1 class="habilidades1">Mis habilidades</h1>
+            </div>
+            <div class="habilidades2">
+                <div>
+                <img class="circle" src = "icon/mobile.svg">
+                <p>Mobile App Design</p>
+                </div>
+                <div>
+                <img class="circle" src = "icon/motion.svg">
+                <p>Motion Design</p>
+                </div>
+            </div>
+            <div class="habilidades2">
+                <div>
+                <img class="circle" src = "icon/material.svg">
+                <p>Creacion de sistemas de dise&#241;o</p>
+                </div>
+                <div>
+                <img class="circle" src = "icon/web.svg">
+                <p>Desarrollo web</p>
+                </div>
+            </div>
+            </div>
+
+        <a name="experiencias"></a>
+        <div class="experiencia">
+            <h1 class="habilidades1"> Experiencia</h1>
+            <table class="t_exp">
+                <tr>
+                  <td>(2026-2018)</td>
+                  <td> <b>Visual designer</b> - Wizeline</td>
+                </tr>
+                 <tr>
+                  <td>(2018-2019)</td>
+                  <td> <b>Product designer</b> - Microsoft</td>
+                </tr>
+                <tr>
+                  <td>(2019-2021)</td>
+                  <td> <b>UI Engineer</b> - Google</td>
+                </tr>
+              </table>
+        </div>
+
+        <a name="portafolio"></a>
+        <div class="container">
+            <div class="port">
+                <h1 class="port_h1">Portafolio</h1>
+            </div>
+            <div class="port_i">
+                <div>
+                <img class="port_i1" src = "img/ejem1.png">
+                </div>
+                <div>
+                <img class="port_i1" src = "img/ejem2.png">
+                </div>
+                <div>
+                <img class="port_i1" src = "img/ejem3.png">
+                </div>
+            </div>
+         </div>
+         <a name="contacto"></a>
+         <div class="cont">
+            <div class="port">
+                <h1 class="habilidades1">Contacto</h1>
+            </div>
+            <div class="habilidades2">
+                <div>
+                <img class="circle_cont" src = "icon/phone.svg">
+                <p>+51949379230</p>
+                </div>
+                <div>
+                <img class="circle_cont" src = "icon/mail 1.svg">
+                <p>jnaelchoquepuma77@gmail.com</p>
+                </div>
+            </div>
+      </main>
+    </div>
+      <footer class="footer"> 
+        <div>
+            <p>Hecho con <3 en Acamdelo</p>
+        </div>
+      </footer>
+    </body>
